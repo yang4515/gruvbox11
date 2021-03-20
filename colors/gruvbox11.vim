@@ -10,6 +10,7 @@ hi! link Tag Special
 hi! link lCursor Cursor
 hi! link iCursor Cursor
 hi! link vCursor Cursor
+hi WhitespaceEOL guifg=#fb4934 guibg=#1d2021 gui=bold,reverse cterm=bold,reverse
 
 if &background ==# 'dark'
   let g:terminal_ansi_colors = ['#1d2021', '#cc241d', '#98971a', '#d79921', '#458588', '#b16286', '#689d6a', '#a89984', '#928374', '#fb4934', '#b8bb26', '#fabd2f', '#83a598', '#d3869b', '#8ec07c', '#ebdbb2']
